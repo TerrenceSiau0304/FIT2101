@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/FIT2101/static/css/main.fdb6029a.css",
+    "main.js": "/FIT2101/static/js/main.e9af813d.js",
+    "static/js/453.da8ceeef.chunk.js": "/FIT2101/static/js/453.da8ceeef.chunk.js",
+    "static/media/forest_char_4.png": "/FIT2101/static/media/forest_char_4.5f844eef5bd3f987c4ba.png",
+    "static/media/forest_char_2.png": "/FIT2101/static/media/forest_char_2.d702a9d68d5a43d4dc7b.png",
+    "static/media/beach_char_5.png": "/FIT2101/static/media/beach_char_5.31af2ee9a185b9ff5ffa.png",
+    "static/media/forest_char_1.png": "/FIT2101/static/media/forest_char_1.e8ecbc131b3be6165fe7.png",
+    "static/media/beach_char_1.png": "/FIT2101/static/media/beach_char_1.5a36d8b5b1ca6b1ecceb.png",
+    "static/media/forest_char_3.png": "/FIT2101/static/media/forest_char_3.fc2eb8b828adc18bb71f.png",
+    "static/media/forest_char_5.png": "/FIT2101/static/media/forest_char_5.cd702d98b458abda8008.png",
+    "static/media/beach_char_2.png": "/FIT2101/static/media/beach_char_2.1bbcbe5edeac67d366ec.png",
+    "static/media/beach_char_4.png": "/FIT2101/static/media/beach_char_4.8dbf9867c376d30053ae.png",
+    "static/media/beach_char_6.png": "/FIT2101/static/media/beach_char_6.4d616db1f82c6a1830ad.png",
+    "static/media/anime_char_3.png": "/FIT2101/static/media/anime_char_3.ca41c92d83e7d7924def.png",
+    "static/media/anime_char_4.png": "/FIT2101/static/media/anime_char_4.ffe760c03c7ed32825a2.png",
+    "static/media/forest_char_6.png": "/FIT2101/static/media/forest_char_6.3b7d0e98c560cab1d80a.png",
+    "static/media/anime_char_2.png": "/FIT2101/static/media/anime_char_2.90423df5e040cc030b9c.png",
+    "static/media/anime_char_6.png": "/FIT2101/static/media/anime_char_6.690f95cfaf9e6d6d8c8c.png",
+    "static/media/forest-light.jpeg": "/FIT2101/static/media/forest-light.496476829fe502e8029b.jpeg",
+    "static/media/anime_char_5.png": "/FIT2101/static/media/anime_char_5.f51d4c9e7559769eb3a8.png",
+    "static/media/anime-light.jpeg": "/FIT2101/static/media/anime-light.31276fda6fda9e0c1b75.jpeg",
+    "static/media/anime_char_1.jpg": "/FIT2101/static/media/anime_char_1.67c63c071377236a2c72.jpg",
+    "static/media/forest-dark.jpeg": "/FIT2101/static/media/forest-dark.24269f2fa4e80191ea34.jpeg",
+    "static/media/beach_char_3.png": "/FIT2101/static/media/beach_char_3.0364e0638b6c2ad89284.png",
+    "static/media/beach-dark.jpeg": "/FIT2101/static/media/beach-dark.47c824ccf68ba2c1ea9b.jpeg",
+    "static/media/anime-dark.jpeg": "/FIT2101/static/media/anime-dark.28a7e03a1368a5c87b70.jpeg",
+    "static/media/beach-light.jpeg": "/FIT2101/static/media/beach-light.278e0a1e718716bae516.jpeg",
+    "index.html": "/FIT2101/index.html",
+    "main.fdb6029a.css.map": "/FIT2101/static/css/main.fdb6029a.css.map",
+    "main.e9af813d.js.map": "/FIT2101/static/js/main.e9af813d.js.map",
+    "453.da8ceeef.chunk.js.map": "/FIT2101/static/js/453.da8ceeef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdb6029a.css",
+    "static/js/main.e9af813d.js"
+  ]
+}
