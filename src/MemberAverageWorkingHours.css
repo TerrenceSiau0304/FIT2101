@@ -1,0 +1,80 @@
+.user-board {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    color: #f0e68c;
+    font-family: Arial, sans-serif;
+}
+
+.user-board h1 {
+    color: #fff;
+    margin-bottom: 30px; /* Spacing between the dashboard title and the boxes */
+    text-align: center; /* Center the title */
+}
+
+/* Box container to keep label above the box */
+.user-box-container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center label and box */
+}
+
+/* Labels for name and time */
+.user-name-label,
+.user-time-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #fff; /* Label color */
+    text-align: center; /* Center labels */
+}
+
+/* Style for the boxes (for both name and time) */
+.user-info-box {
+    background-color: #8c7351;
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    width: 250px; /* Fixed width */
+    text-align: center; /* Center text inside the box */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Ensure text is aligned properly within each box */
+.user-name-box,
+.user-time-box {
+    margin-bottom: 20px;
+}
+
+/* Style for the user button */
+user-button {
+    padding: 5px 10px;
+    margin-top: 20px; /* Adjust margin as necessary */
+    cursor: pointer;
+    background-color: #8c7351;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center; /* Center button text */
+}
+
+/* Chart container styling */
+.chart-container {
+    display: flex;
+    justify-content: center; /* Center the chart horizontally */
+    align-items: center; /* Center the chart vertically */
+    width: auto; /* Adjust width based on content (chart size) */
+    max-width: 600px; /* Optional: Limit max width */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Prevent overflow if chart gets too large */
+}
+
+
