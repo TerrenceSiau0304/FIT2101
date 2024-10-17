@@ -7,7 +7,9 @@ require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 5000;
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://terrencesiau0304.github.io' // Your frontend URL
+}));
 app.use(express.json());
 
 // Conditionally setting the URI based on environment
