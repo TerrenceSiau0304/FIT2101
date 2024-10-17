@@ -28,7 +28,7 @@ const Login = ({selectedBackground}) => {
     const navigate = useNavigate();
     const API_URL = process.env.NODE_ENV === 'development' 
     ? 'http://localhost:5000' // Development API
-    : 'https://terrencesiau0304.github.io/FIT2101'; // Replace with the deployed backend URL
+    : 'https://fit2101-58a2.onrender.com'; // Replace with the deployed backend URL
 
     useEffect(() => {
         document.body.classList.add('login-page');
