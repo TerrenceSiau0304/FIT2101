@@ -1,0 +1,56 @@
+.history-log {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.history-log h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e9e2e2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+}
+
+th {
+    background-color: #ece0bac2;
+}
+
+tbody tr {
+    background-color: #f8f6e1cb;
+}
+
+td {
+    color: #333;
+}
+
+.back-button {
+    background-color: #4c350c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background-color: #806b48;
+}
+
+.loading-indicator {
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #333;
+}
