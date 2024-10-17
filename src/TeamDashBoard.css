@@ -1,0 +1,56 @@
+.dashboard-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard-container h1 {
+    color: #ffffff; /* White color for the heading */
+}
+
+.dashboard-container p {
+    color: #cccccc; /* Light gray color for the paragraph */
+    max-width: 80%;
+    text-align: center;
+}
+
+.dashboard-container form {
+    background-color: #f0e68c; /* Light khaki background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.dashboard-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4b5320; /* Army green background for the button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dashboard-container button:hover {
+    background-color: #394d1f; /* Darker shade for hover */
+}
