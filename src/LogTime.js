@@ -8,18 +8,7 @@ import animeChar3 from './characters/anime_char_3.png';
 import animeChar4 from './characters/anime_char_4.png';
 import animeChar5 from './characters/anime_char_5.png';
 import animeChar6 from './characters/anime_char_6.png';
-import beachChar1 from './characters/beach_char_1.png';
-import beachChar2 from './characters/beach_char_2.png';
-import beachChar3 from './characters/beach_char_3.png';
-import beachChar4 from './characters/beach_char_4.png';
-import beachChar5 from './characters/beach_char_5.png';
-import beachChar6 from './characters/beach_char_6.png';
-import forestChar1 from './characters/forest_char_1.png';
-import forestChar2 from './characters/forest_char_2.png';
-import forestChar3 from './characters/forest_char_3.png';
-import forestChar4 from './characters/forest_char_4.png';
-import forestChar5 from './characters/forest_char_5.png';
-import forestChar6 from './characters/forest_char_6.png';
+
 
 function LogTime({ theme, selectedBackground }) {
   const { sprintId } = useParams();

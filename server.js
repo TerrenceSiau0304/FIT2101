@@ -12,7 +12,7 @@ app.use(express.json());
 
 // Conditionally setting the URI based on environment
 const isDevelopment = process.env.NODE_ENV === 'development'; // or check for local flag
-// const uri = 'mongodb://localhost:27017/'; // Replace with your local DB name
+
 const uri = 'mongodb+srv://terrencesiau:tskadMJOhLuoXyJJ@cluster0.b5r6a.mongodb.net/'; 
 
 
