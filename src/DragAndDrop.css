@@ -1,0 +1,131 @@
+.dragdrop-container {
+  padding: 20px;
+}
+
+.dragdrop-board {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.dragdrop-column {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 45%;
+  min-height: 900px;
+}
+
+.not-started {
+  background-color: #867676;
+}
+
+.in-progress {
+  background-color: #d8b16b;
+}
+
+
+.dragdrop-column h3 {
+  background-color: white;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.dragdrop-box {
+  background-color: #F5F5DC;
+  color: black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  min-height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.task-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+  
+.dragdrop-task-name, .dragdrop-story-point{
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.dragdrop-tags-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #B3E5FC;
+  color: #0277BD;
+  padding: 4px 8px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.save-changes-dragdrop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background-color: #f5e1dc;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.force-buttons {
+  position: fixed;
+  bottom: 20px;      
+  left: 20px;        
+}
+
+.force-buttons button {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+
+.delete-sprint-dragdrop {
+  position: fixed;
+  bottom: 20px;
+  right: 170px;
+  padding: 10px 20px;
+  background-color: #F5F5DC;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}

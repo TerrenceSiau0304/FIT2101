@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    /* background-image: url('./background/animebg1.webp');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+  .anime-character {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+    z-index: 1000;
+  }
+  
+  .containersprintbacklog {
+    width: 90%;
+    height: 982px;
+    position: relative;
+    background-color: #a1887f57;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .sidebar {
+    width: 396px;
+    height: 890px;
+    position: absolute;
+    top: 46px;
+    left: 41px;
+    background-color: #b2ac88b5;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .datetime {
+    position: absolute;
+    top: 69px;
+    left: 68px;
+    color: #1B1C1E;
+    font-size: 32px;
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 700;
+    padding: 10px 15px;
+    border-radius: 8px;
+  }
+  
+  .menu {
+    position: absolute;
+    top: 203px;
+    left: 69px;
+    width: 337px;
+    height: 707px;
+    background-color: #d3d3d3c8;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-title {
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #2D3436;
+  }
+  
+  .menu-item {
+    width: 198px;
+    height: 65px;
+    background-color: #f5f5dcc7;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    color: #1B1C1E;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    background-color: #D3D3D3;
+  }
+
+  .create-sprint {
+    width: 180px;
+    height: 65px;
+    background-color: #F5F5DC;
+    color: #1B1C1E;
+    font-size: 24px;
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    margin-right: 360px;
+    margin-bottom: 30px;
+  }
+  
+  .create-sprint:hover {
+    background-color: #D3D3D3;
+  }
+
+  .sprint-box-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: -25px;
+}
+
+.sprint-box {
+    background-color: #F5F5DC;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-family: 'Inria Serif', serif;
+}
+
+.sprint-box div {
+    margin-right: 55px;
+}
+
+.sprint-box:hover {
+    background-color: #D3D3D3;
+}
+
+.show-graph-button {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
