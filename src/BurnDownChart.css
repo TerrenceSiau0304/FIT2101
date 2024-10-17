@@ -1,0 +1,18 @@
+.chart {
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    background-color:  #d3d3d3c8
+  }
+
+.return{
+    padding: 5px 10px;
+    margin-top: 80px;
+    cursor: pointer;
+    background-color: #8c7351;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+  
