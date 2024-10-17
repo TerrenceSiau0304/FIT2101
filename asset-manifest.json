@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FIT2101/static/css/main.fdb6029a.css",
-    "main.js": "/FIT2101/static/js/main.e9af813d.js",
+    "main.js": "/FIT2101/static/js/main.0e39dc9c.js",
     "static/js/453.da8ceeef.chunk.js": "/FIT2101/static/js/453.da8ceeef.chunk.js",
     "static/media/forest_char_4.png": "/FIT2101/static/media/forest_char_4.5f844eef5bd3f987c4ba.png",
     "static/media/forest_char_2.png": "/FIT2101/static/media/forest_char_2.d702a9d68d5a43d4dc7b.png",
@@ -29,11 +29,11 @@
     "static/media/beach-light.jpeg": "/FIT2101/static/media/beach-light.278e0a1e718716bae516.jpeg",
     "index.html": "/FIT2101/index.html",
     "main.fdb6029a.css.map": "/FIT2101/static/css/main.fdb6029a.css.map",
-    "main.e9af813d.js.map": "/FIT2101/static/js/main.e9af813d.js.map",
+    "main.0e39dc9c.js.map": "/FIT2101/static/js/main.0e39dc9c.js.map",
     "453.da8ceeef.chunk.js.map": "/FIT2101/static/js/453.da8ceeef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fdb6029a.css",
-    "static/js/main.e9af813d.js"
+    "static/js/main.0e39dc9c.js"
   ]
 }
