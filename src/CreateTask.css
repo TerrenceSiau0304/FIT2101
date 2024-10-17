@@ -1,0 +1,118 @@
+.container {
+    width: 70%;
+    margin: 50px auto;
+    background-color: #D3D3D3;
+    padding: 30px;
+    border-radius: 10px;
+    height: auto;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'Libre Caslon Text', serif;
+    font-weight: 700;
+    color: #1B1C1E; /* Darkened for better readability */
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #A1887F;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+    height: auto;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.form-group.full-width {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #F5F5DC; /* Updated to a beige tone for better readability */
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.form-group select {
+    height: 40px;
+    background-color: #fff;
+    color: #333;
+}
+
+.form-group select[multiple] {
+    height: auto; /* Allows it to grow based on options */
+    min-height: 120px; /* Ensures enough height to show options */
+    overflow: auto; /* Enables scrolling for multiple options */
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.cancel-button,
+.save-button,
+.delete-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    background-color: #D78A76; /* Updated to a dusty rose */
+    border-radius: 5px;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+.cancel-button:hover,
+.save-button:hover,
+.delete-button:hover {
+    background-color: #bfa88e; /* Updated to a deeper shade */
+}
+
+.delete-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #FF4D4D; /* Kept the original red for the delete button for UX reasons */
+}
+
+.delete-button:hover {
+    background-color: #FF1A1A; /* Deep red for hover */
+}
+
+.delete-button i {
+    margin-left: 10px;
+}
+
+
