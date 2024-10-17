@@ -1,0 +1,75 @@
+.remove-member-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.remove-member-box, .reassign-tasks-box {
+    padding: 30px;
+    background-color: transparent;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.remove-member-box h1, .reassign-tasks-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 22px;
+}
+
+.remove-member-box label, .reassign-tasks-box label {
+    display: block;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+.remove-member-box input, .reassign-tasks-box select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.remove-member-box button, .reassign-tasks-box button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8B0000;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-member-box button:hover {
+    background-color: #DC143C;
+    transform: translateY(-2px);
+}
+
+.reassign-tasks-box button {
+    background-color: #4682B4;
+}
+
+.reassign-tasks-box button:hover {
+    background-color: #5DADE2;
+    transform: translateY(-2px);
+}
+
+.reassign-tasks-box select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
