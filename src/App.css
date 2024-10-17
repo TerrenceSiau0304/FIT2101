@@ -1,0 +1,187 @@
+.App {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* General Styles */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Beach background */
+.beach-light {
+  background-image: url('./background/beach-light.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.beach-dark {
+  background-image: url('./background/beach-dark.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Forest background */
+.forest-light {
+  background-image: url('./background/forest-light.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.forest-dark {
+  background-image: url('./background/forest-dark.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+/* Anime background */
+.anime-light {
+  background-image: url('./background/anime-light.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.anime-dark {
+  background-image: url('./background/anime-dark.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+
+/* Light Mode Styles */
+.light-mode .button {
+  background-color: #e9e0a7;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.light-mode .button:hover {
+  background-color: #e9e0a7;
+}
+
+.light-mode .container {
+  background-color: #e9e0a7;
+  border: 1px solid #000000;
+}
+
+/* Dark Mode Styles */
+.dark-mode .button {
+  background-color: #444444;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.dark-mode .button:hover {
+  background-color: #444444;
+}
+
+.dark-mode .container {
+  background-color: #444444;
+  border: 1px solid #ffffff;
+}
+/* Background Selector Styles */
+.background-selector {
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.background-selector label {
+  margin-right: 10px;
+}
+
+.background-selector select {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+/* Reset background button */
+.reset-background button {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #393535b0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.reset-background button:hover {
+  background-color: #ddd;
+}
+
+/* .anime-character-1 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 430px;
+  left: 10px;
+  transform: scale(0.45);
+  margin: 0;
+  z-index: 1000;
+}
+
+.anime-character-2 {
+  position: absolute;
+  width: 20px;
+  height: auto;
+  bottom: 300px;
+  left: 10px;
+  transform: scale(0.09);
+  margin: 0;
+  z-index: 1000;
+}
+
+.anime-character-3 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 300px;
+  left: 10px;
+  transform: scale(0.08);
+  margin: 0;
+  z-index: 1000;
+}
+
+.anime-character-4 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 430px;
+  left: 10px;
+  transform: scale(0.45);
+  margin: 0;
+  z-index: 1000;
+}
+
+.anime-character-5 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  top: 430px;
+  left: 10px;
+  transform: scale(0.45);
+  margin: 0;
+  z-index: 1000;
+}
+
+.anime-character-6 {
+  position: absolute;
+  width: 50px;
+  height: auto;
+  bottom: 560px;
+  left: 10px;
+  transform: scale(0.1);
+  margin: 0;
+  z-index: 1000;
+} */
