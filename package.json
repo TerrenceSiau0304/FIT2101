@@ -1,5 +1,6 @@
 {
   "homepage": "https://terrencesiau0304.github.io/FIT2101/",
+  "proxy": "http://localhost:5000",
   "name": "project-management-dashboard",
   "version": "0.1.0",
   "private": true,

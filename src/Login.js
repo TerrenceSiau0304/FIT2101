@@ -26,6 +26,9 @@ const Login = ({selectedBackground}) => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
+    const API_URL = process.env.NODE_ENV === 'development' 
+    ? 'http://localhost:5000' // Development API
+    : 'https://terrencesiau0304.github.io/FIT2101'; // Replace with the deployed backend URL
 
     useEffect(() => {
         document.body.classList.add('login-page');
@@ -40,7 +43,7 @@ const Login = ({selectedBackground}) => {
 
         try {
             // First check for admin login
-            const adminResponse = await axios.post('http://localhost:5000/admin/login', { username, password });
+            const adminResponse = await axios.post(`${API_URL}/admin/login`, { username, password });
             const { token: adminToken } = adminResponse.data;
             // If admin login is successful, store the token and redirect to admin page
             localStorage.setItem('authToken', adminToken);
@@ -49,7 +52,7 @@ const Login = ({selectedBackground}) => {
         } catch (adminError) {
             // If admin login fails, try user login
             try {
-                const userResponse = await axios.post('http://localhost:5000/user/login', { username, password });
+                const userResponse = await axios.post(`${API_URL}/user/login`, { username, password });
                 const { token: userToken } = userResponse.data;
                 // If user login is successful, store the token and redirect to user dashboard
                 localStorage.setItem('authToken', userToken);
