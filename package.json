@@ -26,7 +26,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "concurrently \"npm run client\" \"npm run server\"",
+    "client": "react-scripts start",
+    "server": "node server.js"
   },
   "eslintConfig": {
     "extends": [
@@ -52,6 +54,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "concurrently": "^9.1.2",
     "gh-pages": "^6.2.0"
   }
 }
