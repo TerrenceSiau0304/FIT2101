@@ -1,6 +1,6 @@
 # Y2 Project Management project done with MERN stack
 
-This project is done together with a team of 6, where I mainly focus on Backend and database works.
+This project is done together with a team of 6, where I mainly focus on web functionality, backend and database works.
 
 # Getting Started with Create React App
 
@@ -76,3 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
